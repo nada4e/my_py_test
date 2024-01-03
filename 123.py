@@ -1,9 +1,9 @@
-def sum(a, b): return a + b
-def multiply(a, b): return a * b
- 
-operation = sum
-result = operation(5, 6)
-print(result)   # 11
- 
-operation = multiply
-print(operation(5, 6)) 
+from datetime import datetime
+
+# Получаем текущую дату и время
+current_time = datetime.now().time()
+
+print(current_time)
+
+datetime.strptime('12:00:00', '%H:%M:%S').time():
+datetime.strftime('12:00:00', '%H:%M:%S').time():
